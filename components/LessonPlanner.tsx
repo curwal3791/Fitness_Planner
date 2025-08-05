@@ -1,6 +1,7 @@
+
 import React, { useRef } from 'react';
-import { RoutineItem } from '../types';
-import { DragHandleIcon, TrashIcon } from './icons';
+import { RoutineItem } from '../types.ts';
+import { DragHandleIcon, TrashIcon } from './icons.tsx';
 
 interface LessonPlannerProps {
   routine: RoutineItem[];
