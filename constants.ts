@@ -1,4 +1,5 @@
-import { ClassType, Exercise, ClassOption } from './types';
+
+import { ClassType, Exercise, ClassOption } from './types.ts';
 
 export const INITIAL_CLASS_OPTIONS: ClassOption[] = [
   { type: ClassType.WATER_AEROBICS, image: 'https://images.pexels.com/photos/863977/pexels-photo-863977.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&dpr=2', color: 'bg-blue-500' },
