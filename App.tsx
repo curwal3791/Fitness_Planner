@@ -1,11 +1,12 @@
+
 import React, { useState, useCallback, useMemo, useEffect } from 'react';
-import { ClassOption, Exercise, RoutineItem, SavedRoutine } from './types';
-import { INITIAL_EXERCISES_BY_CLASS, INITIAL_CLASS_OPTIONS } from './constants';
-import ClassSelector from './components/ClassSelector';
-import ExerciseLibrary from './components/ExerciseLibrary';
-import LessonPlanner from './components/LessonPlanner';
-import SavedRoutines from './components/SavedRoutines';
-import { PrintIcon, ChevronLeftIcon, SaveIcon } from './components/icons';
+import { ClassOption, Exercise, RoutineItem, SavedRoutine } from './types.ts';
+import { INITIAL_EXERCISES_BY_CLASS, INITIAL_CLASS_OPTIONS } from './constants.ts';
+import ClassSelector from './components/ClassSelector.tsx';
+import ExerciseLibrary from './components/ExerciseLibrary.tsx';
+import LessonPlanner from './components/LessonPlanner.tsx';
+import SavedRoutines from './components/SavedRoutines.tsx';
+import { PrintIcon, ChevronLeftIcon, SaveIcon } from './components/icons.tsx';
 
 type View = 'class-selector' | 'planner' | 'saved-routines';
 
