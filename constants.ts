@@ -46,3 +46,4 @@ export const INITIAL_EXERCISES_BY_CLASS: Record<string, Exercise[]> = {
     { id: 'hi7', name: 'Plank', description: 'Hold a high or low plank position.' },
   ],
 };
+
