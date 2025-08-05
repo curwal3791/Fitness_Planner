@@ -1,7 +1,8 @@
+
 import React, { useState } from 'react';
-import { ClassOption } from '../types';
-import { FolderOpenIcon, PlusIcon, TrashIcon } from './icons';
-import { INITIAL_CLASS_OPTIONS } from '../constants';
+import { ClassOption } from '../types.ts';
+import { FolderOpenIcon, PlusIcon, TrashIcon } from './icons.tsx';
+import { INITIAL_CLASS_OPTIONS } from '../constants.ts';
 
 interface ClassSelectorProps {
   classOptions: ClassOption[];
