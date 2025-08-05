@@ -1,6 +1,7 @@
+
 import React, { useState, useMemo, useRef } from 'react';
-import { Exercise } from '../types';
-import { PlusIcon, TrashIcon, DragHandleIcon } from './icons';
+import { Exercise } from '../types.ts';
+import { PlusIcon, TrashIcon, DragHandleIcon } from './icons.tsx';
 
 interface ExerciseLibraryProps {
   exercises: Exercise[];
