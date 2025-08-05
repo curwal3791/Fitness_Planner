@@ -110,3 +110,4 @@ const ClassSelector: React.FC<ClassSelectorProps> = ({ classOptions, onSelectCla
 };
 
 export default ClassSelector;
+
