@@ -1,0 +1,6 @@
+{
+  "name": "Fitness Lesson Planner",
+  "description": "An application for fitness instructors to create, customize, and print lesson plans for various class types like water aerobics, cycling, weights, and HIIT.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
