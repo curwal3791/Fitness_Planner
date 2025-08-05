@@ -1,7 +1,7 @@
 
 import React from 'react';
-import { SavedRoutine } from '../types';
-import { ChevronLeftIcon, TrashIcon } from './icons';
+import { SavedRoutine } from '../types.ts';
+import { ChevronLeftIcon, TrashIcon } from './icons.tsx';
 
 interface SavedRoutinesProps {
   routines: SavedRoutine[];
